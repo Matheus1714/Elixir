@@ -1,0 +1,27 @@
+{
+  "name": "elixir",
+  "version": "1.0.0",
+  "description": "![Elixir Logo](img/logo.png)",
+  "main": "index.js",
+  "scripts": {
+    "commit": "cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Matheus1714/Elixir.git"
+  },
+  "author": "Matheus S M Mota",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Matheus1714/Elixir/issues"
+  },
+  "homepage": "https://github.com/Matheus1714/Elixir#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
